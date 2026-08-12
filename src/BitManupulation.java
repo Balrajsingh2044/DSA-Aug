@@ -1,4 +1,4 @@
-public class BinaryNumbers {
+public class BitManupulation {
     static int decToBinary(int dec){
         int ans = 0;
         int pow = 1;
@@ -14,7 +14,9 @@ public class BinaryNumbers {
         return ans;
     }
     public static void main(String[] args) {
-        int num = 4;
-        System.out.println(decToBinary(num));
+        int num1 = decToBinary(3);
+        int num2 = decToBinary(4);
+
+        System.out.println(num1 & num2);
     }
 }
